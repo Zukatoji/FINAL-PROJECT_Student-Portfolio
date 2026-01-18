@@ -14,7 +14,7 @@ Hardware Used
 
 * Arduino Uno, 5 LEDs, Resistors, Breadboard, annd Jumper wires
 
-Implementation Overview
+How the System Works
 
 * Five LEDs are connected to Arduino pins 8 to 12 and stored in an array for easier control. A loop is used to set the pin modes and control the LED sequence. Each LED slowly increases its brightness from 0 to 255 using analogWrite(), creating a fade-in effect. After reaching full brightness, the LED then fades out from 255 back to 0. A short delay is added between LED changes so the running light pattern is easy to see, similar to the first activity.
 
