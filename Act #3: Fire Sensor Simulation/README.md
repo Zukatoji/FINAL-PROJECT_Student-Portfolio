@@ -23,7 +23,7 @@ Pin Configuration
 * Photoresistor: Analog Pin A2
 * Alert LED: Digital Pin 12
 
-Implementation Overview
+How the System Works
 
 * The system continuously reads temperature data from the thermistor and light intensity data from the photoresistor. The temperature is calculated in degrees Celsius based on the thermistor’s resistance, while the light intensity is evaluated by comparing the sensor value to a set threshold. If both the temperature is 50 °C or higher and the light intensity value is 220 or higher, the system turns on a fast-blinking red LED to indicate a possible fire condition. The temperature calculation is placed in a separate function to make the code easier to read and organize.
 
