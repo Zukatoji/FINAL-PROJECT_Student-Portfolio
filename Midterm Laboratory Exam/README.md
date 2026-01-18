@@ -11,6 +11,15 @@ Objectives
 * Allow users to control and configure the system using the Serial Monitor
 * Simulate different lighting conditions such as cloudy, normal, and clear
 
+Hardware Used
+* Arduino Uno (or compatible MCU)
+* Photoresistor (LDR)
+* 3 LEDs (Green, Yellow, Red)
+* Resistors
+* Breadboard
+* Jumper wires
+
+Laptop with Arduino IDE
 System Architecture:
 * The system uses a single-controller architecture. Input Layer, the photoresistor measures the surrounding light level, while serial commands allow the user to interact with and control the system. Processing Layer, the Arduino converts the sensor readings into a percentage-based light intensity value. It uses mode-based logic to decide how the thresholds behave and includes a command parser to understand user input from the serial monitor and Output Layer, the LEDs visually show the current light intensity level, and the Serial Monitor displays system status messages and feedback about the environment.
 
