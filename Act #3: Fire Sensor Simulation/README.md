@@ -5,9 +5,9 @@ Description
 
 Objectives
 
-* Familiarize with basic sensor components used in IoT systems
-* Integrate multiple sensors in an Arduino circuit
-* Implement threshold-based decision logic for fire detection
+* Familiarize students with the basic sensor components that can be used in loT 
+* Integrate these sensor components in an Arduino circuit 
+* Create a simple implementation of a fire sensor
   
 Hardware Used
 
