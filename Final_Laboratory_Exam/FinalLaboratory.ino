@@ -1,5 +1,5 @@
 const int BUTTON_PIN = 2;
-const String GROUP_NUMBER = "Group_4"; 
+const String GROUP_NUMBER = "4"; 
 
 int lastButtonState = HIGH; 
 unsigned long lastDebounceTime = 0;
