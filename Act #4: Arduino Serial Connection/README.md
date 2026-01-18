@@ -4,9 +4,9 @@ Description
 * This activity shows how to use Arduino Serial Communication to control a circuit while it is running. A photoresistor is used to detect light, and commands typed in the Serial Monitor are used to control the LED.
 
 Objectives
-* Learn how to use Serial communication in Arduino
-* Use simple Serial commands for input and output
-* Build a circuit that reacts to a sensor and user commands
+- Understand and implement Arduino Serial Connection
+- Utilize and familiarize students on different basic Serial connection functions
+- Create a simple circuit that can be controlled using Serial connection
 
 Hardware Used
 * Arduino Uno
