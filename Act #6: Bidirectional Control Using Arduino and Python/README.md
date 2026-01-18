@@ -1,3 +1,5 @@
+Laboratory Activity 6: Bidirectional Control Using Arduino and Python
+
 Description
 * This activity shows how Arduino and Python can communicate with each other in both directions. Buttons connected to the Arduino send signals to a Python program, and the Python program sends commands back to the Arduino to control LEDs.
 
