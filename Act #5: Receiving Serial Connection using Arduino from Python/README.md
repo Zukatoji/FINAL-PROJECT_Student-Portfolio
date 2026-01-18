@@ -4,9 +4,9 @@ Description
 * This activity shows how an Arduino and a Python program can communicate with each other using Serial communication. A Python program sends commands to the Arduino, and the Arduino follows those commands to control several LEDs.
 
 Objectives
-* Learn how to use Serial communication with Arduino
-* Use Python and the pyserial library to control hardware
-* Create a simple command-based control system
+* Understand and implement Arduino Serial Connection
+* Utilize Python as a tool for implementing serial connection
+* Create a simple circuit that can be controlled using Serial connection using Arduino and Python
 
 Hardware Used
 * Arduino MCU
